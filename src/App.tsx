@@ -1,7 +1,11 @@
+import {useAppSelector} from './redux/hooks/useAppSelector';
+
 function App() {
+  const user = useAppSelector(state => state.user);
+
   return (
     <div>
-      Meu nome é: ... e tenho ... anos.
+      Meu nome é: {user.name} e tenho {user.age} anos.
 
       <br />
 
