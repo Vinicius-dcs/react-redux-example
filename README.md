@@ -1,6 +1,6 @@
 # React Redux Example
 
-Project using React and Typescript to create a photos album.
+Project using React and Typescript to create a example of redux.
 
 ### Requirements
 - Node 18.9+
